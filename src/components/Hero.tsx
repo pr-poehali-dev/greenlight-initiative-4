@@ -37,6 +37,11 @@ export default function Hero() {
         <button className="mt-10 border border-white text-white px-8 py-3 uppercase tracking-widest text-sm hover:bg-white hover:text-black transition-all duration-300">
           Забронировать стол
         </button>
+        <div className="mt-12 border-t border-white/20 pt-8 max-w-2xl mx-auto">
+          <p className="text-base md:text-lg italic font-light opacity-80 leading-relaxed">
+            «Лучший казахский ресторан в регионе. Приходите к нам — не пожалеете о том, что попробовали наши блюда. Будем рады видеть вас снова и снова.»
+          </p>
+        </div>
       </div>
     </div>
   );
