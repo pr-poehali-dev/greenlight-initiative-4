@@ -19,19 +19,24 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/4c8876ee-fbb9-40ce-a495-a06b85eedd65/files/87aa41e2-c08f-4af4-a555-6ac7f62b789a.jpg"
+          alt="Казахская степь на закате"
           className="w-full h-full object-cover"
         />
+        <div className="absolute inset-0 bg-black/40" />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+      <div className="relative z-10 text-center text-white px-6">
+        <p className="text-xs md:text-sm uppercase tracking-[0.4em] mb-4 opacity-70">Ресторан казахской кухни</p>
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 leading-none">
+          ДАСТАРХАН
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+        <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 font-light">
+          Изысканные блюда казахской национальной кухни. Бешпармак, куырдак, бауырсаки и ароматный чай в сердце традиции.
         </p>
+        <button className="mt-10 border border-white text-white px-8 py-3 uppercase tracking-widest text-sm hover:bg-white hover:text-black transition-all duration-300">
+          Забронировать стол
+        </button>
       </div>
     </div>
   );
