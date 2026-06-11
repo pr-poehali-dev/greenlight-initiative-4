@@ -5,6 +5,7 @@ import Menu from "@/components/Menu";
 import Promo from "@/components/Promo";
 import Culture from "@/components/Culture";
 import Events from "@/components/Events";
+import Reviews from "@/components/Reviews";
 import Contacts from "@/components/Contacts";
 import Footer from "@/components/Footer";
 
@@ -18,6 +19,7 @@ const Index = () => {
       <Promo />
       <Culture />
       <Events />
+      <Reviews />
       <Contacts />
       <Footer />
     </main>
